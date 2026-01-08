@@ -77,12 +77,12 @@ const Navbar = () => {
             ))}
             <a
               href="/KISHORE_RESUME.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Kishore_Babu_Resume.pdf"
               className="px-4 py-2 text-sm font-medium text-primary border border-primary rounded hover:bg-primary/10 transition-colors duration-300 hover-glow"
             >
-              Resume
+              Download Resume
             </a>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,12 +110,12 @@ const Navbar = () => {
               ))}
               <a
                 href="/KISHORE_RESUME.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                download="Kishore_Babu_Resume.pdf"
                 className="px-4 py-2 text-sm font-medium text-primary border border-primary rounded text-center hover:bg-primary/10 transition-colors"
               >
-                Resume
+                Download Resume
               </a>
+
             </div>
           </div>
         )}
